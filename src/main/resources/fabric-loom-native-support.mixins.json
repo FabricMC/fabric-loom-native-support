@@ -1,13 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "net.fabricmc.loom.nativesupport.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "net.fabricmc.loom.nativesupport.mixin.MacWindowUtilMixin",
-    "net.fabricmc.loom.nativesupport.mixin.WindowMixin"
+    "MacWindowUtilMixin",
+    "WindowMixin"
   ],
   "injectors": {
     "defaultRequire": 1
