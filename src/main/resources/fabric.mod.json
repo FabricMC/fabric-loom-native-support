@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-loom-native-support",
+  "version": "${version}",
+
+  "name": "Fabric Loom Native Support",
+  "description": "A small mod to improve support for architectures and libraries officially unsupported by Minecraft. Mainly targeting Apple Macs using arm processors.",
+  "authors": [
+    "FabricMC"
+  ],
+  "license": "Apache-2",
+  "environment": "client",
+  "mixins": [
+    "fabric-loom-native-support.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "java": ">=17"
+  }
+}
